@@ -1,0 +1,33 @@
+.buy-section2 {
+    padding: 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.buy-section1 {
+    height: 150px;
+}
+
+.buy-section1 button {
+    padding: 18px 30px;
+    color: white;
+    border: none;
+    background-color: rgb(184, 6, 6);
+}
+
+.bs-box1 {
+    padding: 0 3%;
+    width: 40%;
+}
+
+.bs-box2 {
+    width: 60%;
+    padding: 0 3%;
+}
+
+.bs-box1 img {
+    width: 100%;
+}

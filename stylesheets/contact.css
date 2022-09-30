@@ -1,0 +1,83 @@
+
+.contact-section1 p {
+    padding: 3% 10%;
+    text-align: center;
+    color: gray;
+    
+}
+
+.contact-section-container {
+    display: flex;
+    padding: 3% 3%;
+}
+
+.form-box {
+    text-align: center;
+    width: 70%;
+    padding: 2%;
+}
+
+input {
+    width: 90%;
+    padding: 14px;
+    margin: 1%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+input:last-child {
+    margin-top: 2%;
+    width: 15%;
+    border: none;
+    color: white;
+    background-color: rgb(184, 6, 6);
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 1%;
+    border: 1px solid lightgray;
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.aside {
+    text-align: center;
+    padding: 0 2%;
+    width: 30%;
+    line-height: 2;
+}
+
+.aside p {
+    color: gray;
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.aside a {
+    text-decoration: none;
+    color: gray;
+}
+
+.aside a:hover {
+    color: blue;
+}
+
+/* Thank you form submission page */
+
+.thanks {
+    font-size: 200%;
+    color: rgb(184, 6, 6);
+    font-family: quicksand, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}

@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Tier Real Estate</title>
+    <link rel="icon" href="/New_Tier/images/favicon.png" type="image/icon type">
     <link rel="stylesheet" href="/New_Tier/stylesheets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/gmi2wle.css">
     <script src="/New_Tier/App.js"></script>
 </head>
 
 <body>
-    <div class="banner flex-center">
+    <div class="banner flex-center quicksand">
         <div>
             <p>ASK ABOUT OUR LISTING PACKAGES AND BUYER DISCOUNTS!</p>
         </div>
@@ -24,13 +26,12 @@
             </div>
             <div class="header-nav flex-center">
                 <nav>
-                    <ul class="nav-items flex-center">
+                    <ul class="nav-items flex-center quicksand">
                         <li><a class="home" href="/New_Tier/index.html">HOME</a></li>
-                        <li><a href="#">BUY</a></li>
-                        <li><a href="#">SELL</a></li>
-                        <li><a href="#">MANAGE</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="/New_Tier/html/buy.html">BUY</a></li>
+                        <li><a href="/New_Tier/html/sell.html">SELL</a></li>
+                        <li><a href="/New_Tier/html/manage.html">MANAGE</a></li>
+                        <li><a href="/New_Tier/html/contact.html">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -42,22 +43,68 @@
                 <div class="main-image">
                     <img src="/New_Tier/images/josh-hemsley-HOD7O7e01Qk-unsplash.jpg" alt="image of stairway">
                 </div>
-                <div class="main-button-box flex-center">
-                    <button>TALK TO AN AGENT</button>
+                <div class="main-button-box flex-center ">
+                    <button class="quicksand">TALK TO AN AGENT</button>
                 </div>
             </div>
         </section>
         <section>
             <div class="section2-box flex-center">
-                <div >
-                    <h3>Your dream home is waiting</h3>
+                <div>
+                    <h3 class="quicksand">Your dream home is waiting</h3>
                 </div>
                 <div>
-                    <button>Search listings coming soon</button>
+                    <button class="quicksand">Search listings coming soon</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="section3-container flex-center">
+                <div class="box quicksand border-right">
+                    <div class="p-space">
+                        <p>Buying a home can be an intimidating venture. Our experienced agents are here to make to
+                            process easier.</p>
+                    </div>
+                    <div class="box-space">
+                        <button onclick="window.location.href='/New_Tier/html/buy.html'">BUY</button>
+                    </div>
+                </div>
+                <div class="box quicksand border-right">
+                    <div class="p-space">
+                        <p>Sell with confidence when using our fully transparent listing packages. Click below to find
+                            out more.</p>
+                    </div>
+                    <div class="box-space">
+                        <button onclick="window.location.href='/New_Tier/html/sell.html'">SELL</button>
+                    </div>
+                </div>
+                <div class="box quicksand">
+                    <div class="p-space">
+                        <p>We pride ourselves on maintaining top tier customer service. You can rest assured your
+                            investment property will be in good hands with us.</p>
+                    </div>
+                    <div class="box-space">
+                        <button onclick="window.location.href='/New_Tier/html/manage.html'">MANAGE</button>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content quicksand">
+                <p>COPYRIGHT © 2019 NEW TIER REAL ESTATE - ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="footer-logos">
+                <ul>
+                    <li><a href="https://www.facebook.com/New-Tier-Real-Estate" target="_blank"><img src="/New_Tier/images/icons8-facebook-48.png" alt="Facebook logo"></a></li>
+                    <li><a href="https://www.linkedin.com/company/18919577/admin/" target="_blank"><img src="/New_Tier/images/icons8-linkedin-48.png" alt="linkedin logo"></a></li>
+                    <li><a href="https://www.yelp.com/biz/cartwright-and-otto-team-new-tier-real-estate-issaquah-3" target="_blank"><img src="/New_Tier/images/icons8-yelp-48.png" alt="Yelp logo"></a></li>
+                    <li><a href="https://www.zillow.com/profile/NewTierRealEstate/" target="_blank"><img src="/New_Tier/images/zillow-blue.svg" alt="Zillow logo"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
