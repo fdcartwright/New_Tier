@@ -1,0 +1,122 @@
+
+.sell-section1 {
+    width: auto;
+    height: 200px;
+    background-image: url("/New_Tier/images/house-on-hill.webp");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.sell-section1 button {
+    padding: 18px 30px;
+    color: white;
+    border: none;
+    background-color: rgb(184, 6, 6);
+}
+
+/* Sell table */
+.main-inner .content .container .row .col-md-8 {
+    width: 100% !important;
+    padding: 0;
+}
+
+.sell-content {
+    max-width: 730px;
+    padding-top: 5%;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+h2.listing-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #595959;
+    text-align: center;
+}
+
+h3.listing-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #595959;
+    text-align: center;
+}
+
+table.listing-options {
+    width: 100%;
+    max-width: 730px;
+    margin: 40px auto;
+    font-size: 12px;
+}
+
+table.listing-options th[scope="col"] {
+    border-bottom: 1px solid #7F7F7F;
+}
+
+table.listing-options th.available-services {
+    width: 40%;
+}
+
+table.listing-options th[scope="row"] {
+    padding: 8px 10px;
+    border-right: 1px solid #7F7F7F;
+    text-align: right;
+    color: #595959;
+}
+
+table.listing-options th span {
+    display: block;
+    text-align: center;
+}
+
+table.listing-options th span.fee {
+    font-size: 10px;
+}
+
+table.listing-options tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.listing-options td {
+    font-size: 20px;
+    text-align: center;
+}
+
+table.listing-options .basic {
+    color: rgb(184, 6, 6);
+    font-weight: bold;
+}
+
+table.listing-options .value {
+    color: #2f5496;
+    font-weight: bold;
+}
+
+table.listing-options .premier {
+    color: #7030a0;
+    font-weight: bold;
+}
+
+table.listing-options .optional-service {
+    font-size: 8px;
+}
+
+div.cta {
+    max-width: 730px;
+    margin: 0 auto 40px;
+}
+
+div.cta .col {
+    margin-bottom: 18px;
+}
+
+div.cta .col .btn {
+    padding: 18px 0;
+}
+
+@media (min-width: 576px) {
+    table.listing-options th.available-services {
+        width: 64%;
+    }
+}
